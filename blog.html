@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="row mt-5 mb-3">
+
+            <h1>Buddhika's Blog</h1>
+        </div>
+
+
+        <div id="medium-widget" class="row"></div>
+    </div>
+
+    
+    <!-- Blog Script -->
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>
+        MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "https://medium.com/runtimeerror", "postsPerLine": 3, "limit": 9, "picture": "big", "fields": ["description", "author", "claps", "publishAt"], "ratio": "landscape" } })</script>
+
+</body>
+
+</html>
